@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript form validation</title>
+</head>
+<body>
+    <div>
+        <form id="myForm" onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" /><br />
+    
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" /><br />
+    
+            <input type="submit" value="Submit" />
+    
+        </form>
+    
+        
+    
+        <p id="errorMsg" style="color: red;"></p>
+           
+    </div>
+       
+</body>
+<script src='script.js'></script>
+</html>

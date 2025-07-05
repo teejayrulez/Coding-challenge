@@ -1,0 +1,193 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    gap: 2rem
+}
+
+img{
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.hero-section h1{
+    font-size: 3rem;
+    padding: 1.5rem 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header, 
+.footer{
+    background-color:#1c57f7;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.quote-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box{
+    color: #333;
+    border: 1px solid #0077b6;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2rem;
+    width: 400px;
+    border-radius: 1rem;
+}
+
+.box-top,
+.box-bottom{
+    margin: 2rem 2rem;
+}
+
+.title{
+    font-size: 24px;
+    color: #0077b6;
+    padding: .5rem 0;
+}
+
+.quote{
+    font-size: 18px;
+    font-style: italic;
+    padding: .5rem 0;
+}
+
+.author{
+    font-size: 16px;
+    color: #555;
+    padding: .5rem 0;
+}
+
+form{
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: auto;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+}
+
+input, textarea, button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button{
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Responsiveness */
+
+@media (max-width: 900px){
+
+    .hero-section{
+        display: block;
+     
+    }
+
+    img{
+        padding: 1rem 0 0 0;
+        width: 500px;
+    }
+
+    .quote-container{
+        display: block;
+    }
+
+    .title{
+        color: red;
+    }
+
+    .box-top,
+    .box-bottom{
+    margin: 2rem auto;
+}
+
+
+}
+
+
+@media (max-width: 760px){
+    body{
+        
+    }
+
+    img{
+        padding: 1rem 0 0 0;
+        width: 400px;
+        height: 300px;
+    }
+
+
+    .hero-section{
+        display: block;
+    }
+
+    .quote-container{
+        display: block;
+    }
+
+    .title{
+        color: green;
+    }
+
+
+}
+
+
+
+
+
